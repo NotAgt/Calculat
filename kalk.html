@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Kalkulators</title>
+		<meta name="author" content="Agita Martinsone"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Kalkulators">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<link rel="stylesheet" href="stils.css" />	
+		<script src="javaskr.js"></script>
+	</head>
+	<body>
+	
+		<table id="kalk">
+			<tr>
+				<td colspan="4"><input type = "text" readonly="readonly" id="res"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="2" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="3" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="+" class="act" onclick="att(value)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="5" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="6" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="-" class="act" onclick="att(value)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="8" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="9" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="*" class="act" onclick="att(value)"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="0" class="no" onclick="att(value)"></td>
+				<td><input type="button" value="." class="no" onclick="att(value)"></td>
+				<td><input type="button" value="/"class="act" onclick="att(value)"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="C" id="del" onclick="del()"></td>
+				<td colspan="2"><input type="button" value="=" id="res_poga" onclick="apr()"></td>
+			</tr>
+		
+		</table>
+	
+	</body>
+	</html>
